@@ -1,0 +1,17 @@
+[project]
+name = "reservation-test-case"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "alembic>=1.20.1",
+    "fastapi[standard]>=0.165.0",
+    "pydantic>=2.14.4",
+    "pydantic-settings>=2.16.3",
+    "sqlalchemy[asyncio]>=2.1.9",
+    "tzdata",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = ["pytest"]
